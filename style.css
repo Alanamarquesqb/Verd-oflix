@@ -1,0 +1,54 @@
+
+
+
+
+
+body{
+color:rgb(60, 211, 68);
+background-color: forestgreen;
+margin: 0px;
+margin-bottom: 100px;
+} 
+
+header{
+ 
+    border-bottom: solid 2px rgb(204, 236, 86);
+    margin: 20px;
+    font-size: 32px;
+    color: rgb(86, 109, 64);
+}
+
+section{
+padding-bottom: 80px;
+padding-top: 80px;
+background-color: rgb(179, 179, 110);
+display:flex;
+justify-content: center;
+}
+
+
+
+
+h1{
+color:darkorchid
+font-size: 40px;
+}
+
+p{
+ font-size: 20px;
+}
+
+.chamada-texto{
+    margin-right: 1%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(62, 180, 141);
+    color: rgb(127, 172, 255);
+}
+
+
+
+
+
+
+
