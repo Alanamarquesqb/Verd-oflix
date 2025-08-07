@@ -2,72 +2,73 @@
 
 
 
-
 body{
-color:rgb(60, 211, 68);
-background-color: forestgreen;
+color:#74c696 ;
+background-color:#0c0c0c ;
 margin: 0px;
 margin-bottom: 100px;
-} 
-
-header{
-    border-bottom: solid 2px rgb(204, 236, 86);
-    margin: 20px;
-    font-size: 32px;
-    color: rgb(86, 109, 64);
 }
 
-section{
+header{
+    border-bottom: solid 2px #636aa5 ;
+    margin: 20px;
+    font-size: 32px;
+    color: rgb(32, 63, 37);
+}
+
+section{    
 padding-bottom: 80px;
 padding-top: 80px;
-background-color: rgb(179, 179, 110);
-display:flex;
+background: rgb(128, 128, 128);
+display: flex;
 justify-content: center;
 }
 
-
-
-
 h1{
-color:darkorchid
+color:#c6a974 ;
 font-size: 40px;
 }
 
 p{
- font-size: 20px;
+    font-size: 20px;
 }
 
 .categoria{
 padding-left: 20px;
 padding-right: 20px;
+
 }
 
-.categoria-vídeos{
+.categoria-videos {
     display: flex;
-    overflow: auto;
+    overflow-x: auto;
     gap: 10px;
 }
+
 img{
     height: 200px;
 }
 
-.categoria-vídeos img{
+.categoria-videos img{
     opacity: 0.5;
     height: 200px;
 }
-.categoria-vídeos img:hover{
-    opacity: 1.0;
-    border: 3px solid rgb(255, 0, 157);
+
+.categoria-videos img:hover{
+opacity:1.0;
+border: 3px solid #74c674;
+
 }
+
 .categoria h2{
-color: aquamarine;
+color: #63a58f;
+
 }
 
 .chamada-texto{
     margin-right: 1%;
     text-align: center;
     padding: 20px;
-    background-color: rgb(62, 180, 141);
-    color: rgb(127, 172, 255);
+    background-color: #000000;
+    color: #bac674;
 }
-
